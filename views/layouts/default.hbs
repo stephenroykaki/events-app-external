@@ -7,19 +7,19 @@
   <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
-<body>
-  <div>
-      <h1>Welcome to Stephen's application</h1>
-    {{{body}}}
-</div>
-<div>
-  <h2>Add an event</h2>
-    <form action="/event" method="post">
-       title: <input name="title" type="text" /> <br />
-       description: <input name="description" type="text" /> <br />
-       <br />
-        <input type="submit" name="submit" value="submit" />
-    </form>
-  </div>
-</body>
+    <body>
+        <div>
+            <h1>Welcome to Stephen's application</h1>
+            <h2>Add an event</h2>
+            <form action="/event" method="post">
+                title: <input name="title" type="text" /> <br />
+                description: <input name="description" type="text" /> <br />
+                <br />
+                <input type="submit" name="submit" value="submit" />
+            </form>
+        </div>
+        <div>
+            {{{body}}}
+        </div>
+    </body>
 </html>
